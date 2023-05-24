@@ -15,23 +15,23 @@
 
 # PROGRAM:
 
-import java.util.Scanner;
-public class Calculation
-{
-    public static void main(String[] args)
-    {
-        Scanner s=new Scanner(System.in);
-        System.out.println("Enter a number:");
-        int a=s.nextInt();
-        System.out.println("Enter a number:");
-        int b=s.nextInt();
-        System.out.println("Sum: "+(a+b));
-        System.out.println("Difference: "+(a-b)); 
-        System.out.println("Product: "+(a*b));
-        System.out.println("Quotient: "+(a/b));
-        System.out.println("Remainder: "+(a%b));
-    }
-}
+  import java.util.Scanner;\n
+  public class Calculation<br>
+  {
+      public static void main(String[] args)"\n"
+      {
+          Scanner s=new Scanner(System.in);
+          System.out.println("Enter a number:");
+          int a=s.nextInt();
+          System.out.println("Enter a number:");
+          int b=s.nextInt();
+          System.out.println("Sum: "+(a+b));
+          System.out.println("Difference: "+(a-b)); 
+          System.out.println("Product: "+(a*b));
+          System.out.println("Quotient: "+(a/b));
+          System.out.println("Remainder: "+(a%b));
+      }
+  }
 
 # OUTPUT:
 
