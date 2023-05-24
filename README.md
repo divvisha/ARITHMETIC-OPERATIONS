@@ -23,14 +23,14 @@
           Scanner s=new Scanner(System.in);<br>
           System.out.println("Enter a number:");<br>
           int a=s.nextInt();<br>
-          System.out.println("Enter a number:");
-          int b=s.nextInt();
+          System.out.println("Enter a number:");<br>
+          int b=s.nextInt();<br>
           System.out.println("Sum: "+(a+b));<br>
           System.out.println("Difference: "+(a-b)); <br>
           System.out.println("Product: "+(a*b));<br>
           System.out.println("Quotient: "+(a/b));<br>
           System.out.println("Remainder: "+(a%b));<br>
-      }
+      }<br>
   }
 
 # OUTPUT:
