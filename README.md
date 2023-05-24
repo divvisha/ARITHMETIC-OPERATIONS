@@ -15,21 +15,21 @@
 
 # PROGRAM:
 
-  import java.util.Scanner;\n
+  import java.util.Scanner;<br>
   public class Calculation<br>
-  {
-      public static void main(String[] args)"\n"
-      {
-          Scanner s=new Scanner(System.in);
-          System.out.println("Enter a number:");
-          int a=s.nextInt();
+  {<br>
+      public static void main(String[] args)<br>
+      {<br>
+          Scanner s=new Scanner(System.in);<br>
+          System.out.println("Enter a number:");<br>
+          int a=s.nextInt();<br>
           System.out.println("Enter a number:");
           int b=s.nextInt();
-          System.out.println("Sum: "+(a+b));
-          System.out.println("Difference: "+(a-b)); 
-          System.out.println("Product: "+(a*b));
-          System.out.println("Quotient: "+(a/b));
-          System.out.println("Remainder: "+(a%b));
+          System.out.println("Sum: "+(a+b));<br>
+          System.out.println("Difference: "+(a-b)); <br>
+          System.out.println("Product: "+(a*b));<br>
+          System.out.println("Quotient: "+(a/b));<br>
+          System.out.println("Remainder: "+(a%b));<br>
       }
   }
 
